@@ -1,0 +1,25 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "It is created by Composer to ensure that the same versions of dependencies are used."
+    ],
+    "packages": [
+        {
+            "name": "midtrans/midtrans-php",
+            "version": "2.6.1",
+            "source": {
+                "url": "https://github.com/Midtrans/midtrans-php.git",
+                "type": "git",
+                "reference": "a3e325f..."
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "ext-curl": "*"
+            }
+        }
+    ],
+    "packages-dev": [],
+    "platform": {
+        "php": "8.2.12"
+    }
+}
